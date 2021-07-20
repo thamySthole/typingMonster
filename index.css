@@ -1,0 +1,36 @@
+*{
+  padding:none;
+  margin: none;
+
+}
+a{
+  color: white;
+}
+
+#content_body{
+  min-width:360px;
+  height: 570px;
+  background-color: lightgrey;
+  margin-top: -25px;
+  border-radius: 20px;
+}
+.header{
+  color: black;
+  opacity: 0.78;
+  padding-left: 40px;
+  font-family: Consolas;
+  font-size: 20px;
+}
+#return_btn{
+  display:flex;
+  color:white;
+  background-color: black;
+  opacity: 0.80;
+  border-radius: 4.9px;
+  margin: -10px -30px -10px 300px;
+}
+#return_btn::active{
+  transition: 0.4s;
+  color:white;
+  background: white;
+}

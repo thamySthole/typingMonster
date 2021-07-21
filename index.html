@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <script src="index.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
   <style>
 #content_body{
   min-width:360px;
@@ -34,11 +34,14 @@
   margin-top: 50px;
 }
 #img_log{
-
   height: 90px;
   width:90px;
   border-radius: 45px;
-  background: 'red'
+  
+}
+.h2_menu{
+  color: #49ab60;
+  text-align: center;
 }
 
   </style>
@@ -47,8 +50,14 @@
 <body>
    
    <div id="content_body">
+     <h3 class='h2_menu'>Typing monster</h3>
+     
       <div class="menu_option">
-       <div id='img_log'></div>    
+       <div id='img_log'>
+         <img src="/images/menu_logo.png"/>
+       </div>    
+       
+       
        <div id="a"><a href="game_ground.html">play</a></div> 
        <div id='a'>scores</div>
        <div id="a">setting</div>
